@@ -47,10 +47,9 @@ time_t compileTime()
     char const *compDate = __DATE__;
     char const *compTime = __TIME__;
     char const *months = "JanFebMarAprMayJunJulAugSepOctNovDec";
-    char compMon[3], *m;
+    char compMon[4], *m;
 
-    strncpy(compMon, compDate, 3);
-    compMon[3] = '\0';
+    strlcpy(compMon, compDate, 3);
     m = strstr(months, compMon);
 
     tmElements_t tm;
