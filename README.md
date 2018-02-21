@@ -28,5 +28,4 @@ pio run -t upload
 ```
 ## References
 
-* [adafruit/Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
-* [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+* [Adafruit DS3231 Precision RTC Breakout](https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout)
